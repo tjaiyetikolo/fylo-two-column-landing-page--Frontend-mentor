@@ -1,0 +1,61 @@
+/*HERO SECTION*/
+
+.hero {
+  background-image: url('/images/bg-curve-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
+  min-height: 88vh;
+  padding-top: 10rem;
+}
+.hero-content {
+  background: #f8f8fe;
+}
+.hero-body {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 10rem;
+}
+.hero-main {
+  @include flex(center, center, row);
+  & .hero-main-text {
+    flex: 1 1 20rem;
+    h2 {
+      font-size: $header2;
+    }
+    p {
+      font-size: $small;
+      padding: 3rem 0rem 1rem 0rem;
+    }
+  }
+  & .hero-main-img {
+    flex: 1 1 5rem;
+  }
+}
+.hero-main-link {
+  @include flex(flex-start, center, row);
+  flex-wrap: wrap;
+}
+.hero-main-link h4 {
+  text-decoration: underline;
+  font-size: $extra-small;
+  color: $moderate-cyan;
+}
+
+.card {
+  font-size: 1.2rem;
+  width: 20%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 2rem;
+  .quote {
+    padding: 1rem 0rem;
+  }
+}
+.card .card-identifier {
+  img {
+    width: 10%;
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
+  @include flex(flex-start, center, row);
+}

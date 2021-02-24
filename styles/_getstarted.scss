@@ -1,0 +1,38 @@
+/*GET STARTED SECTION */
+.getstarted {
+  min-height: 30vh;
+  padding: 5rem 0rem;
+  background: $desaturated-blue;
+}
+.getstarted-content {
+  @include flex(flex-start, center, row);
+  width: 90%;
+  margin: 0 auto;
+}
+
+.getstarted-content .getstarted-text {
+  color: white;
+  flex: 1.5 1 20rem;
+  h2 {
+    font-size: $header2;
+  }
+  p {
+    font-size: $little;
+    width: 55%;
+  }
+}
+
+.getstarted-content .getstarted-fill {
+  flex: 1 1 20rem;
+  input {
+    display: block;
+    padding: 1.5rem;
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+  button {
+    width: 30%;
+    padding: 1rem;
+    font-size: 1.3rem;
+  }
+}

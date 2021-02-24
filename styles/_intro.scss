@@ -1,0 +1,29 @@
+/* INTRO SECTION */
+.intro {
+  @include flex(center, center, row);
+  padding: 4rem 0rem 8rem 0rem;
+  & .intro-text h2 {
+    font-size: $header2;
+  }
+  p {
+    padding: 1rem 0rem;
+    font-size: $small;
+  }
+}
+
+.intro-bottom {
+  width: 70%;
+  @include flex(flex-start, center, row);
+  input,
+  button {
+    padding: 1rem;
+  }
+  input {
+    flex: 2 1 5rem;
+    margin-right: 2rem;
+    height: 100%;
+  }
+  button {
+    flex: 1 1 3rem;
+  }
+}

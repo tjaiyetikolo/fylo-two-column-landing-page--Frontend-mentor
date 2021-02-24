@@ -1,0 +1,27 @@
+$dark-blue: hsl(243, 87%, 12%);
+$desaturated-blue: hsl(238, 22%, 44%);
+$bright-blue: hsl(224, 93%, 58%);
+$moderate-cyan: hsl(170, 45%, 43%);
+$light-grayish-blue: hsl(224, 93%, 58%);
+$light-gray: hsl(0, 0%, 75%);
+$header2: 4.5rem;
+$small: 1.8rem;
+$extra-small: 1.6rem;
+$little: 1.4rem;
+$button-text: 1.4rem;
+
+@mixin flex($justify, $align, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+@import 'resets';
+@import 'global';
+@import 'header';
+@import 'intro';
+@import 'hero';
+@import 'getstarted';
+@import 'footer';
+@import 'media';

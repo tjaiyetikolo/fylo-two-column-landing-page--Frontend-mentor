@@ -1,0 +1,47 @@
+/*GLOBALS*/
+
+html {
+  font-size: 62.5%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+a,
+button {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header,
+.intro {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a,
+button,
+li {
+  cursor: pointer;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  &:visited {
+    color: black;
+  }
+}
+
+button {
+  font-size: $button-text;
+  background: $bright-blue;
+  color: white;
+  border: none;
+}

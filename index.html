@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- goggle fonts  -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+  <!-- font awesome kit -->
+  <script src="https://kit.fontawesome.com/42bfb0e537.js" crossorigin="anonymous"></script>
+  <!-- css stylesheet -->
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+</head>
+<body>
+  <!-- header begins -->
+  <header>
+    <div class="main-head">
+      <!-- navigation -->
+      <nav>
+        <div class="logo">
+          <img src="/images/logo.svg" alt="logo">
+        </div>
+        <!-- navigation links -->
+        <ul class="links">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#signin">Sign In</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- header ends -->
+
+  <!-- main section begins  -->
+  <main>
+      <!-- intro section begins -->
+  <section class="intro">
+    <div class="intro-text">
+      <h2>All your files in one secure location, accessible anywhere.</h2>
+      <p>
+        Fylo stores your most important files in one secure location. 
+        Access them wherever you need, share and collaborate with friends, 
+        family, and co-workers.
+      </p>
+      <!-- div of input and button fro sign up -->
+      <div class="intro-bottom">
+        <input type="text" name="email" id="#signin" placeholder="Enter your email..." aria-label="Enter your email">
+        <button type="submit">Get Started</button>
+      </div>
+      
+    </div>
+
+    <div class="intro-img">
+      <img src="/images/illustration-1.svg" alt="">
+    </div>
+  </section>
+  <!-- intro section ends -->
+  
+  <!-- hero section begins -->
+  <section class="hero" id="features">
+    <div class="hero-content">
+      <div class="hero-body">
+        <div class="hero-main">
+          <div class="hero-main-text">
+            <h2>Stay productive, wherever you are</h2>
+            <p>
+              Never let location be an issue when accessing your files. Fylo has you 
+              covered for all of your file storage needs. <br/><br/>
+              Securely share files and folders with friends, family and colleagues for 
+              live collaboration. No email attachments required!
+            </p>
+            <div class="hero-main-link">
+              <h4>See how Fylo works</h4>
+              <a href="#"><img src="/images/icon-arrow.svg" alt="icon-arrow"></a>
+            </div>
+          </div>
+          <div class="hero-main-img">
+            <img src="/images/illustration-2.svg" alt="">
+          </div>
+        </div>
+    
+        <!-- card -->
+        <div class="card">
+          <div class="card-img">
+            <img src="/images/icon-quotes.svg" alt="quotes">
+          </div>
+          
+          <blockquote class="quote">
+            Fylo has improved our team productivity by an order of magnitude. Since 
+            making the switch our team has become a well-oiled collaboration machine.
+          </blockquote>
+          
+          <div class="card-identifier">
+            <img src="/images/avatar-testimonial.jpg" alt="avatar">
+            <div class="card-name-tag">
+              <h4>Kyle Burton</h4>
+              <h4 class="card-tag">Founder & CEO, Huddle</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+  </section>
+  <!-- hero section ends -->
+
+  <!-- get started section begins -->
+  <section class="getstarted">
+    <div class="getstarted-content">
+      <div class="getstarted-text">
+        <h2>Get early access today</h2>
+        <p>    
+          It only takes a minute to sign up and our free starter tier is extremely generous. 
+          If you have any questions, our support team would be happy to help you.
+        </p>
+      </div>
+      <!-- input and button sign up -->
+      <div class="getstarted-fill">
+        <input type="text" name="email" placeholder="Enter your email" aria-label="Enter your email" />
+        <button type="submit">Get Started For Free</button>
+      </div>
+    </div>
+  </section>
+  <!-- get started section ends -->
+  </main>
+  <!-- main section ends  -->
+
+  <!-- footer begins -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-content-img">
+        <img src="/images/logolight.svg" alt="">
+      </div>
+      <div class="footer-content-body">
+        <!-- footer section with text -->
+        <div class="footer-contact">
+          <div class="footer-contact-tel contact">
+            <img src="/images/icon-phone.svg" alt="">
+            <!-- to directly call from user's device-->
+            <a href="tel:+1-543-123-4567">Phone: +1-543-123-4567</a>  
+          </div>
+          <div class="footer-contact-email contact">
+            <img src="/images/icon-email.svg" alt="">
+            <!-- to directly create email from user's device -->
+            <a href="mailto:example@fylo.com">example@fylo.com</a> 
+          </div>
+  
+        </div>
+        <!-- footer links -->
+        <div class="footer-links about">
+            <ul>
+              <li>About Us</li>
+              <li>Jobs</li>
+              <li>Press</li>
+              <li>Blog</li>
+            </ul>
+        </div>
+
+        <div class="footer-links about-more">
+          <ul>
+            <li>Contact Us</li>
+            <li>Terms</li>
+            <li>Privacy</li>
+          </ul>
+        </div>
+
+        <!-- footer social media -->
+        <div class="social-links">
+          <ul>
+            <li><a href="https://web.facebook.com/frontendmentor/?_rdc=1&_rdr" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://twitter.com/frontendmentor?lang=en" target="_blank"><i class="fab fa-twitter"></i></a></i></li>
+            <li><a href="https://www.instagram.com/moirawrites/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+    <!-- attribution -->
+    <div class="attribution">
+      <p>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://www.frontendmentor.io/profile/tjaiyetikolo">Tioluwani Jaiye-Tikolo</a>.
+      </p>
+    </div>
+  </footer>
+  <!-- footer ends  -->
+</body>
+</html>

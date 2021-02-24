@@ -1,0 +1,20 @@
+/*HEADER*/
+nav {
+  @include flex(space-around, center, row);
+  padding: 4rem 0rem;
+  .logo {
+    flex: 1 1 40rem;
+  }
+  ul {
+    flex: 1 1 1rem;
+  }
+  & ul {
+    @include flex(space-around, center, row);
+  }
+  & ul li {
+    font-weight: normal;
+  }
+  li {
+    font-size: $extra-small;
+  }
+}

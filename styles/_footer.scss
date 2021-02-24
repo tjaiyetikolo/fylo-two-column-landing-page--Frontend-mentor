@@ -1,0 +1,58 @@
+/*FOOTER*/
+
+footer {
+  padding: 4rem 0rem 0rem 4rem;
+  background-color: $dark-blue;
+  color: white;
+  line-height: 3rem;
+}
+
+.footer-content {
+  a {
+    color: white;
+  }
+  ul {
+    list-style: none;
+  }
+  width: 95%;
+  margin: 0 auto;
+  @include flex(flex-start, center, row);
+  flex-wrap: wrap;
+  .footer-content-img {
+    display: block;
+    width: 100%;
+  }
+}
+
+.footer-content-body {
+  font-size: $little;
+  @include flex(space-between, center, row);
+  width: 90%;
+}
+
+.footer-contact {
+  width: 24%;
+}
+
+.contact {
+  @include flex(flex-start, center, row);
+  img {
+    margin: 0rem 2rem 0rem 0rem;
+  }
+}
+
+.social-links {
+  ul {
+    @include flex(space-around, center, row);
+  }
+  width: 15%;
+}
+
+.attribution {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: $extra-small;
+  a {
+    color: $moderate-cyan;
+  }
+}
