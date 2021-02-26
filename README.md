@@ -1,3 +1,6 @@
+Live site: https://fylo-two-column-landing-page-frontend-mentor-f50jb1jou.vercel.app/
+
+
 # Frontend Mentor - Fylo landing page with two column layout
 
 ![Design preview for the Fylo landing page with two column layout challenge](./design/desktop-preview.jpg)
