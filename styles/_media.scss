@@ -1,157 +1,3 @@
-@media screen and (max-width: 600px) {
-  body {
-    width: 100vw;
-    height: 100vh;
-  }
-  html {
-    font-size: 30%;
-  }
-
-  header,
-  .into-text {
-    width: 90%;
-    margin: 0 auto;
-  }
-  nav {
-    padding: 4rem 0rem;
-    margin: 0rem 0rem;
-    .logo {
-      flex: 0.2 1 10rem;
-    }
-    ul {
-      flex: 1 1 10rem;
-
-      padding: 0;
-
-      li {
-        font-size: 3rem;
-      }
-    }
-  }
-
-  .intro {
-    @include flex(flex-start, center, column-reverse);
-    padding-top: 15rem;
-    .intro-text {
-      text-align: center;
-      h2 {
-        font-size: 5rem;
-      }
-      p {
-        font-size: 2.5rem;
-      }
-    }
-  }
-  .intro-bottom {
-    width: 100%;
-    @include flex(center, center, column);
-    input {
-      width: 100%;
-      padding: 3rem;
-      margin: 3rem 0rem;
-      font-size: 2.5rem;
-    }
-
-    button {
-      width: 100%;
-      padding: 1.5rem;
-      font-size: 2.5rem;
-    }
-  }
-
-  .hero {
-    width: 100%;
-  }
-  .hero-body {
-    width: 90%;
-    margin: -4rem auto 0rem auto;
-  }
-  .hero-main {
-    @include flex(center, center, column-reverse);
-    flex-wrap: wrap;
-    & .hero-main-text {
-      h2 {
-        text-align: center;
-        font-size: 5rem;
-      }
-      p {
-        font-size: 3rem;
-      }
-    }
-  }
-  .hero-main-link h4 {
-    font-size: 3rem;
-    padding: 3rem 2rem 3rem 0rem;
-  }
-
-  .card {
-    padding: 4rem;
-    margin-top: 4rem;
-    width: 80%;
-    font-size: 2.5rem;
-  }
-
-  .getstarted-content {
-    @include flex(center, center, column);
-    text-align: center;
-  }
-  .getstarted-content .getstarted-text {
-    @include flex(center, center, column);
-    h2 {
-      font-size: 5rem;
-    }
-    p {
-      display: block;
-      width: 90%;
-      font-size: 3rem;
-      padding: 2rem;
-    }
-  }
-  .getstarted-content .getstarted-fill {
-    width: 90%;
-    input {
-      display: block;
-      padding: 1.5rem;
-      width: 100%;
-      margin-bottom: 2rem;
-      font-size: 2.5rem;
-    }
-    button {
-      width: 100%;
-      padding: 2.5rem;
-      font-size: 2.5rem;
-    }
-  }
-
-  footer {
-    line-height: 4.5rem;
-  }
-  .footer-content {
-    .footer-content-img {
-      padding: 4rem 0rem;
-    }
-  }
-  .footer-content-body {
-    font-size: 2.5rem;
-    width: 100%;
-    @include flex(flex-start, flex-start, column);
-  }
-  .footer-contact {
-    width: 100%;
-  }
-  .footer-links,
-  .social-links {
-    font-size: 2.5rem;
-    width: 100%;
-    ul {
-      padding: 0;
-    }
-  }
-  .attribution {
-    font-size: 2.5rem;
-  }
-}
-
 /**/
 /**/
 /**/
@@ -162,12 +8,8 @@
     width: 100vw;
     height: 100vh;
   }
-  html {
-    font-size: 30%;
-  }
-
   header,
-  .into-text {
+  .intro-text {
     width: 90%;
     margin: 0 auto;
   }
@@ -178,12 +20,11 @@
       flex: 0.2 1 10rem;
     }
     ul {
-      flex: 1 1 10rem;
-
+      flex: 1 1 1rem;
       padding: 0;
 
       li {
-        font-size: 4rem;
+        font-size: 2rem;
       }
     }
   }
@@ -191,15 +32,16 @@
   .intro {
     @include flex(flex-start, center, column-reverse);
     min-height: 80vh;
-    padding: 20rem 0rem;
+    padding: 15rem 0rem;
     .intro-text {
       text-align: center;
-      h2 {
+      & .intro-text h2 {
         padding: 5rem 0rem;
         font-size: 10rem;
       }
       p {
-        font-size: 5rem;
+        font-size: 2rem;
+        padding: 2rem 0rem;
       }
     }
   }
@@ -209,15 +51,15 @@
     input {
       border: 1px solid;
       width: 100%;
-      padding: 5rem;
-      margin: 5rem 0rem;
-      font-size: 5rem;
+      padding: 1rem;
+      margin: 2rem 0rem;
+      font-size: 2rem;
     }
 
     button {
       width: 100%;
-      padding: 5rem;
-      font-size: 5rem;
+      padding: 1rem;
+      font-size: 2rem;
     }
   }
 
@@ -235,34 +77,34 @@
       h2 {
         padding: 3rem 0rem;
         text-align: center;
-        font-size: 10rem;
+        font-size: 5rem;
       }
       p {
-        font-size: 5rem;
+        font-size: 2rem;
       }
     }
   }
   .hero-main-link h4 {
-    font-size: 5rem;
-    padding: 5rem 2rem 5rem 0rem;
+    font-size: 2rem;
+    padding: 3rem 2rem 3rem 0rem;
   }
 
   .card {
-    padding: 6rem;
-    margin-top: 4rem;
     width: 70%;
-    font-size: 5rem;
+    padding: 3rem;
+    margin-top: 4rem;
+    font-size: 2rem;
   }
 
   .card .card-identifier {
-    padding: 3rem 0rem;
+    padding: 1rem 0rem;
     img {
       width: 15%;
-      margin-right: 5rem;
+      margin-right: 2rem;
     }
   }
   .card .card-identifier .card-name-tag {
-    font-size: 4rem;
+    font-size: 1.5rem;
   }
 
   .getstarted-content {
@@ -272,144 +114,28 @@
   .getstarted-content .getstarted-text {
     @include flex(center, center, column);
     h2 {
-      font-size: 10rem;
+      font-size: 5rem;
     }
     p {
       display: block;
       width: 90%;
-      font-size: 5rem;
-      padding: 6rem;
+      font-size: 2rem;
+      padding: 3rem 0rem;
     }
   }
   .getstarted-content .getstarted-fill {
-    width: 90%;
+    width: 100%;
     input {
       display: block;
-      padding: 5rem;
-      width: 100%;
-      margin-bottom: 2rem;
-      font-size: 4rem;
-    }
-    button {
-      width: 100%;
-      padding: 5rem;
-      font-size: 4rem;
-    }
-  }
-
-  footer {
-    line-height: 8rem;
-  }
-  .footer-content {
-    .footer-content-img {
-      padding: 6rem 0rem;
-    }
-  }
-  .footer-content-body {
-    font-size: 5rem;
-    width: 100%;
-    @include flex(flex-start, flex-start, column);
-  }
-  .footer-contact {
-    width: 100%;
-  }
-  .footer-links,
-  .social-links {
-    font-size: 5rem;
-    width: 100%;
-    ul {
-      padding: 0;
-    }
-  }
-  .attribution {
-    font-size: 5rem;
-  }
-}
-
-/**/
-/**/
-/**/
-/**/
-/*MEDIA QUERY AT 1440PX*/
-@media screen and (max-width: 1440px) {
-  nav {
-    padding: 6rem 0rem;
-    li {
-      font-size: 3rem;
-    }
-  }
-
-  .intro {
-    .intro-text {
-      padding: 5rem 0rem;
-      h2 {
-        font-size: 4rem;
-      }
-      p {
-        font-size: 2.5rem;
-      }
-    }
-  }
-  .intro-bottom {
-    @include flex(center, center, column);
-    input {
-      border: 1px solid;
-      width: 100%;
-      padding: 2rem;
-      margin: 2rem 0rem;
-      font-size: 2rem;
-    }
-
-    button {
-      width: 100%;
-      padding: 2rem;
-      font-size: 2rem;
-    }
-  }
-
-  .hero-main {
-    .hero-main-text {
-      h2 {
-        padding: 3rem 0rem;
-        font-size: 4rem;
-      }
-      p {
-        font-size: 3rem;
-      }
-    }
-  }
-  .hero-main-link h4 {
-    font-size: 3rem;
-    padding: 5rem 2rem 5rem 0rem;
-  }
-
-  .card {
-    width: 50%;
-    padding: 4rem;
-    font-size: 3rem;
-  }
-
-  .card .card-identifier .card-name-tag {
-    font-size: 2rem;
-  }
-
-  .getstarted-content .getstarted-text {
-    h2 {
-      font-size: 4rem;
-    }
-    p {
-      width: 80%;
-      font-size: 2.5rem;
       padding: 1rem;
-    }
-  }
-  .getstarted-content .getstarted-fill {
-    input {
-      width: 80%;
+      width: 100%;
+      margin: auto;
+      margin-bottom: 2rem;
       font-size: 2rem;
     }
     button {
-      width: 80%;
+      width: 100%;
+      padding: 1rem;
       font-size: 2rem;
     }
   }
@@ -423,19 +149,172 @@
     }
   }
   .footer-content-body {
-    font-size: 3rem;
+    font-size: 2rem;
+    width: 100%;
+    @include flex(flex-start, flex-start, column);
   }
   .footer-contact {
-    width: 40%;
-  }
-  .contact {
-    margin: 2rem 0rem;
+    width: 100%;
   }
   .footer-links,
   .social-links {
-    font-size: 3rem;
+    font-size: 2rem;
+    width: 100%;
+    ul {
+      padding: 0;
+    }
   }
   .attribution {
-    font-size: 3rem;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+  header,
+  .intro-text {
+    width: 90%;
+    margin: 0 auto;
+  }
+  nav {
+    padding: 1rem 0rem;
+    margin: 0rem 0rem;
+    .logo {
+      flex: 0.2 1 5rem;
+    }
+    ul {
+      flex: 1 1 0rem;
+      padding: 0;
+
+      li {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .intro {
+    @include flex(flex-start, center, column-reverse);
+    padding-top: 10rem;
+    .intro-text {
+      text-align: center;
+      h2 {
+        font-size: 3rem;
+      }
+      p {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  .intro-bottom {
+    width: 100%;
+    @include flex(center, center, column);
+    input {
+      width: 100%;
+      padding: 1rem;
+      margin: 1rem 0rem;
+      font-size: 1.5rem;
+    }
+
+    button {
+      width: 100%;
+      padding: 1rem;
+      font-size: 1.5rem;
+    }
+  }
+
+  .hero {
+    width: 100%;
+  }
+  .hero-body {
+    width: 90%;
+    margin: -8rem auto 0rem auto;
+  }
+  .hero-main {
+    @include flex(center, center, column-reverse);
+    flex-wrap: wrap;
+    & .hero-main-text {
+      h2 {
+        text-align: center;
+        font-size: 3rem;
+      }
+      p {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  .hero-main-link h4 {
+    font-size: 1.5rem;
+    padding: 1rem 2rem 1rem 0rem;
+  }
+
+  .card {
+    padding: 2rem;
+    margin-top: 4rem;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  .getstarted-content {
+    @include flex(center, center, column);
+    text-align: center;
+  }
+  .getstarted-content .getstarted-text {
+    @include flex(center, center, column);
+    h2 {
+      font-size: 3rem;
+    }
+    p {
+      display: block;
+      width: 90%;
+      font-size: 1.5rem;
+      padding: 2rem 0rem 4rem 0rem;
+    }
+  }
+  .getstarted-content .getstarted-fill {
+    width: 90%;
+    input {
+      display: block;
+      padding: 1rem;
+      width: 100%;
+      margin-bottom: 2rem;
+      font-size: 1.5rem;
+    }
+    button {
+      width: 100%;
+      padding: 1rem;
+      font-size: 1.5rem;
+    }
+  }
+
+  footer {
+    line-height: 4rem;
+  }
+  .footer-content {
+    .footer-content-img {
+      padding: 4rem 0rem;
+    }
+  }
+  .footer-content-body {
+    font-size: 1.5rem;
+    width: 100%;
+    @include flex(flex-start, flex-start, column);
+  }
+  .footer-contact {
+    width: 100%;
+  }
+  .footer-links,
+  .social-links {
+    font-size: 1.5rem;
+    width: 100%;
+    ul {
+      padding: 0;
+    }
+  }
+  .attribution {
+    line-height: normal;
+    font-size: 1.5rem;
   }
 }
