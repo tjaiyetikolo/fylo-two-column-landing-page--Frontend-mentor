@@ -423,6 +423,7 @@ nav li {
 
 /*FOOTER*/
 footer {
+  font-family: 'Open Sans', sans-serif;
   padding: 4rem 0rem 0rem 4rem;
   background-color: #070439;
   color: white;
@@ -533,225 +534,6 @@ footer {
   color: #3c9f8f;
 }
 
-@media screen and (max-width: 600px) {
-  body {
-    width: 100vw;
-    height: 100vh;
-  }
-  html {
-    font-size: 30%;
-  }
-  header,
-  .into-text {
-    width: 90%;
-    margin: 0 auto;
-  }
-  nav {
-    padding: 4rem 0rem;
-    margin: 0rem 0rem;
-  }
-  nav .logo {
-    -webkit-box-flex: 0.2;
-        -ms-flex: 0.2 1 10rem;
-            flex: 0.2 1 10rem;
-  }
-  nav ul {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 10rem;
-            flex: 1 1 10rem;
-    padding: 0;
-  }
-  nav ul li {
-    font-size: 3rem;
-  }
-  .intro {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-    padding-top: 15rem;
-  }
-  .intro .intro-text {
-    text-align: center;
-  }
-  .intro .intro-text h2 {
-    font-size: 5rem;
-  }
-  .intro .intro-text p {
-    font-size: 2.5rem;
-  }
-  .intro-bottom {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .intro-bottom input {
-    width: 100%;
-    padding: 3rem;
-    margin: 3rem 0rem;
-    font-size: 2.5rem;
-  }
-  .intro-bottom button {
-    width: 100%;
-    padding: 1.5rem;
-    font-size: 2.5rem;
-  }
-  .hero {
-    width: 100%;
-  }
-  .hero-body {
-    width: 90%;
-    margin: -4rem auto 0rem auto;
-  }
-  .hero-main {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .hero-main .hero-main-text h2 {
-    text-align: center;
-    font-size: 5rem;
-  }
-  .hero-main .hero-main-text p {
-    font-size: 3rem;
-  }
-  .hero-main-link h4 {
-    font-size: 3rem;
-    padding: 3rem 2rem 3rem 0rem;
-  }
-  .card {
-    padding: 4rem;
-    margin-top: 4rem;
-    width: 80%;
-    font-size: 2.5rem;
-  }
-  .getstarted-content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    text-align: center;
-  }
-  .getstarted-content .getstarted-text {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .getstarted-content .getstarted-text h2 {
-    font-size: 5rem;
-  }
-  .getstarted-content .getstarted-text p {
-    display: block;
-    width: 90%;
-    font-size: 3rem;
-    padding: 2rem;
-  }
-  .getstarted-content .getstarted-fill {
-    width: 90%;
-  }
-  .getstarted-content .getstarted-fill input {
-    display: block;
-    padding: 1.5rem;
-    width: 100%;
-    margin-bottom: 2rem;
-    font-size: 2.5rem;
-  }
-  .getstarted-content .getstarted-fill button {
-    width: 100%;
-    padding: 2.5rem;
-    font-size: 2.5rem;
-  }
-  footer {
-    line-height: 4.5rem;
-  }
-  .footer-content .footer-content-img {
-    padding: 4rem 0rem;
-  }
-  .footer-content-body {
-    font-size: 2.5rem;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .footer-contact {
-    width: 100%;
-  }
-  .footer-links,
-  .social-links {
-    font-size: 2.5rem;
-    width: 100%;
-  }
-  .footer-links ul,
-  .social-links ul {
-    padding: 0;
-  }
-  .attribution {
-    font-size: 2.5rem;
-  }
-}
-
 /**/
 /**/
 /**/
@@ -761,11 +543,8 @@ footer {
     width: 100vw;
     height: 100vh;
   }
-  html {
-    font-size: 30%;
-  }
   header,
-  .into-text {
+  .intro-text {
     width: 90%;
     margin: 0 auto;
   }
@@ -780,12 +559,12 @@ footer {
   }
   nav ul {
     -webkit-box-flex: 1;
-        -ms-flex: 1 1 10rem;
-            flex: 1 1 10rem;
+        -ms-flex: 1 1 1rem;
+            flex: 1 1 1rem;
     padding: 0;
   }
   nav ul li {
-    font-size: 4rem;
+    font-size: 2rem;
   }
   .intro {
     display: -webkit-box;
@@ -802,17 +581,18 @@ footer {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
     min-height: 80vh;
-    padding: 20rem 0rem;
+    padding: 15rem 0rem;
   }
   .intro .intro-text {
     text-align: center;
   }
-  .intro .intro-text h2 {
+  .intro .intro-text .intro-text h2 {
     padding: 5rem 0rem;
     font-size: 10rem;
   }
   .intro .intro-text p {
-    font-size: 5rem;
+    font-size: 2rem;
+    padding: 2rem 0rem;
   }
   .intro-bottom {
     width: 100%;
@@ -833,14 +613,14 @@ footer {
   .intro-bottom input {
     border: 1px solid;
     width: 100%;
-    padding: 5rem;
-    margin: 5rem 0rem;
-    font-size: 5rem;
+    padding: 1rem;
+    margin: 2rem 0rem;
+    font-size: 2rem;
   }
   .intro-bottom button {
     width: 100%;
-    padding: 5rem;
-    font-size: 5rem;
+    padding: 1rem;
+    font-size: 2rem;
   }
   .hero {
     width: 100%;
@@ -869,30 +649,30 @@ footer {
   .hero-main .hero-main-text h2 {
     padding: 3rem 0rem;
     text-align: center;
-    font-size: 10rem;
+    font-size: 5rem;
   }
   .hero-main .hero-main-text p {
-    font-size: 5rem;
+    font-size: 2rem;
   }
   .hero-main-link h4 {
-    font-size: 5rem;
-    padding: 5rem 2rem 5rem 0rem;
+    font-size: 2rem;
+    padding: 3rem 2rem 3rem 0rem;
   }
   .card {
-    padding: 6rem;
-    margin-top: 4rem;
     width: 70%;
-    font-size: 5rem;
+    padding: 3rem;
+    margin-top: 4rem;
+    font-size: 2rem;
   }
   .card .card-identifier {
-    padding: 3rem 0rem;
+    padding: 1rem 0rem;
   }
   .card .card-identifier img {
     width: 15%;
-    margin-right: 5rem;
+    margin-right: 2rem;
   }
   .card .card-identifier .card-name-tag {
-    font-size: 4rem;
+    font-size: 1.5rem;
   }
   .getstarted-content {
     display: -webkit-box;
@@ -926,37 +706,38 @@ footer {
             flex-direction: column;
   }
   .getstarted-content .getstarted-text h2 {
-    font-size: 10rem;
+    font-size: 5rem;
   }
   .getstarted-content .getstarted-text p {
     display: block;
     width: 90%;
-    font-size: 5rem;
-    padding: 6rem;
+    font-size: 2rem;
+    padding: 3rem 0rem;
   }
   .getstarted-content .getstarted-fill {
-    width: 90%;
+    width: 100%;
   }
   .getstarted-content .getstarted-fill input {
     display: block;
-    padding: 5rem;
+    padding: 1rem;
     width: 100%;
+    margin: auto;
     margin-bottom: 2rem;
-    font-size: 4rem;
+    font-size: 2rem;
   }
   .getstarted-content .getstarted-fill button {
     width: 100%;
-    padding: 5rem;
-    font-size: 4rem;
+    padding: 1rem;
+    font-size: 2rem;
   }
   footer {
-    line-height: 8rem;
+    line-height: 4rem;
   }
   .footer-content .footer-content-img {
     padding: 6rem 0rem;
   }
   .footer-content-body {
-    font-size: 5rem;
+    font-size: 2rem;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -977,7 +758,7 @@ footer {
   }
   .footer-links,
   .social-links {
-    font-size: 5rem;
+    font-size: 2rem;
     width: 100%;
   }
   .footer-links ul,
@@ -985,32 +766,65 @@ footer {
     padding: 0;
   }
   .attribution {
-    font-size: 5rem;
+    font-size: 2rem;
   }
 }
 
-/**/
-/**/
-/**/
-/**/
-/*MEDIA QUERY AT 1440PX*/
-@media screen and (max-width: 1440px) {
-  nav {
-    padding: 6rem 0rem;
+@media screen and (max-width: 600px) {
+  body {
+    width: 100vw;
+    height: 100vh;
   }
-  nav li {
-    font-size: 3rem;
+  header,
+  .intro-text {
+    width: 90%;
+    margin: 0 auto;
+  }
+  nav {
+    padding: 1rem 0rem;
+    margin: 0rem 0rem;
+  }
+  nav .logo {
+    -webkit-box-flex: 0.2;
+        -ms-flex: 0.2 1 5rem;
+            flex: 0.2 1 5rem;
+  }
+  nav ul {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 0rem;
+            flex: 1 1 0rem;
+    padding: 0;
+  }
+  nav ul li {
+    font-size: 1.5rem;
+  }
+  .intro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding-top: 10rem;
   }
   .intro .intro-text {
-    padding: 5rem 0rem;
+    text-align: center;
   }
   .intro .intro-text h2 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .intro .intro-text p {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
   .intro-bottom {
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1026,73 +840,150 @@ footer {
             flex-direction: column;
   }
   .intro-bottom input {
-    border: 1px solid;
     width: 100%;
-    padding: 2rem;
-    margin: 2rem 0rem;
-    font-size: 2rem;
+    padding: 1rem;
+    margin: 1rem 0rem;
+    font-size: 1.5rem;
   }
   .intro-bottom button {
     width: 100%;
-    padding: 2rem;
-    font-size: 2rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  .hero {
+    width: 100%;
+  }
+  .hero-body {
+    width: 90%;
+    margin: -8rem auto 0rem auto;
+  }
+  .hero-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .hero-main .hero-main-text h2 {
-    padding: 3rem 0rem;
-    font-size: 4rem;
+    text-align: center;
+    font-size: 3rem;
   }
   .hero-main .hero-main-text p {
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
   .hero-main-link h4 {
-    font-size: 3rem;
-    padding: 5rem 2rem 5rem 0rem;
+    font-size: 1.5rem;
+    padding: 1rem 2rem 1rem 0rem;
   }
   .card {
-    width: 50%;
-    padding: 4rem;
-    font-size: 3rem;
+    padding: 2rem;
+    margin-top: 4rem;
+    width: 100%;
+    font-size: 1.5rem;
   }
-  .card .card-identifier .card-name-tag {
-    font-size: 2rem;
+  .getstarted-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .getstarted-content .getstarted-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .getstarted-content .getstarted-text h2 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .getstarted-content .getstarted-text p {
-    width: 80%;
-    font-size: 2.5rem;
-    padding: 1rem;
+    display: block;
+    width: 90%;
+    font-size: 1.5rem;
+    padding: 2rem 0rem 4rem 0rem;
+  }
+  .getstarted-content .getstarted-fill {
+    width: 90%;
   }
   .getstarted-content .getstarted-fill input {
-    width: 80%;
-    font-size: 2rem;
+    display: block;
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
   }
   .getstarted-content .getstarted-fill button {
-    width: 80%;
-    font-size: 2rem;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.5rem;
   }
   footer {
     line-height: 4rem;
   }
   .footer-content .footer-content-img {
-    padding: 6rem 0rem;
+    padding: 4rem 0rem;
   }
   .footer-content-body {
-    font-size: 3rem;
+    font-size: 1.5rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .footer-contact {
-    width: 40%;
-  }
-  .contact {
-    margin: 2rem 0rem;
+    width: 100%;
   }
   .footer-links,
   .social-links {
-    font-size: 3rem;
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  .footer-links ul,
+  .social-links ul {
+    padding: 0;
   }
   .attribution {
-    font-size: 3rem;
+    line-height: normal;
+    font-size: 1.5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
